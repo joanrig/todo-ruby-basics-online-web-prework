@@ -3,15 +3,15 @@ def division(num1, num2)
  end
 
 def assign_variable(value)
-  var lion
+  value = name
 end
 
-def argue
-  
+def argue(argument)
+  return argument
 end
 
-def greeting
-
+def greeting(salutation,name)
+  return "#{salutation}, #{name}!"
 end
 
 def return_a_value
